@@ -41,7 +41,7 @@ public abstract class AMarbleSolitaireModelImpl implements MarbleSolitaireModel 
     return true;
   }
 
-  // Override in Triangle
+  // Overrode in Triangle
   @Override
   public String getGameState() {
     StringBuilder gs = new StringBuilder();
